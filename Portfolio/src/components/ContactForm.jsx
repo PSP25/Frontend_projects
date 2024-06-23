@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import Layout from './Layout';
+import React, { useState, useRef } from "react";
+import Layout from "./Layout";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
+  // const form = useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -11,14 +13,36 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send email, save to database, etc.)
-    console.log('Form submitted:', form);
+
+    const templateParams = {
+      from_name: form.name,
+      from_email: form.email,
+      message: form.message,
+    };
+
+    emailjs
+      .send(
+        "service_8wrdzqs",
+        "template_jtw0z9m",
+        templateParams,
+        "oV4KTjIkbmtrP_lsO"
+      )
+      .then(
+        (response) => {
+          alert("Message Sent! Thanks for your time")
+          console.log("SUCCESS!", response.status, response.text);
+          // Optionally, reset the form after successful submission
+          setForm({ name: "", email: "", message: "" });
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
   };
 
   return (
-    
-    <form onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg p-4">
-      <div className="mb-4">
+    <form  ref={form} onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg p-4">
+      <div className="mb-4 text-gray-700">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Name</label>
         <input
           type="text"
@@ -62,7 +86,41 @@ const ContactForm = () => {
         </button>
       </div>
     </form>
-    
+
+    // <form
+    //   ref={form}
+    //   onSubmit={handleSubmit}
+    //   className="bg-white shadow-md rounded-lg p-4"
+    // >
+    //   <div className="mb-4">
+    //     <label
+    //       className="block text-gray-700 text-sm font-bold mb-2"
+    //       htmlFor="name"
+    //     >
+    //       Name
+    //     </label>
+    //     <input type="text" name="user_name" />
+    //   </div>
+    //   <div className="mb-4">
+    //     <label
+    //       className="block text-gray-700 text-sm font-bold mb-2"
+    //       htmlFor="email"
+    //     >
+    //       Email
+    //     </label>
+    //     <input type="email" name="user_email" />
+    //   </div>
+    //   <div className="mb-4">
+    //     <label
+    //       className="block text-gray-700 text-sm font-bold mb-2"
+    //       htmlFor="message"
+    //     >
+    //       Message
+    //     </label>
+    //     <textarea name="message" />
+    //     <input type="submit" value="Send" />
+    //   </div>
+    // </form>
   );
 };
 
