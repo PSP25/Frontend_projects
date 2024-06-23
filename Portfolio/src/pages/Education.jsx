@@ -23,7 +23,7 @@ const Education = () => {
       <p className="mt-1">Passing Year: 2021</p>
       <p className="mt-1">Board: CBSE</p>
       <p className="mt-1">Percentage: <strong>88.4%</strong></p>
-      <a href="https://drive.google.com/file/d/1bjTOFkh8GHp0eW2llanC73MLBSSjP209/view" className="text-blue-700"
+      <a href="https://drive.google.com/file/d/1bjTOFkh8GHp0eW2llanC73MLBSSjP209/view?usp=sharing" className="text-blue-700"
       >MarkSheet</a>
     </div>
 
@@ -33,7 +33,7 @@ const Education = () => {
       <p className="mt-1">Passing Year: 2019</p>
       <p className="mt-1">Board: CBSE</p>
       <p className="mt-1">Percentage: <strong>97.2%</strong></p>
-      <a href="https://drive.google.com/file/d/1PoRUfUhmNr8EItiWnHCLPe9EfFnic9NJ/view" className="text-blue-700"
+      <a href="https://drive.google.com/file/d/1PoRUfUhmNr8EItiWnHCLPe9EfFnic9NJ/view?usp=sharing" className="text-blue-700"
       >MarkSheet</a>
     </div>
   </div>
