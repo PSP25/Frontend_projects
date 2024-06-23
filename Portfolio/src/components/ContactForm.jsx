@@ -41,7 +41,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form  ref={form} onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg p-4">
+    <form  ref={form} onSubmit={handleSubmit} className="bg-gray-200 shadow-md rounded-lg p-4">
       <div className="mb-4 text-gray-700">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Name</label>
         <input
