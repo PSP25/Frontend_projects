@@ -45,7 +45,7 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <div className="p-4 flex flex-col items-center justify-center h-full">
+    <div className="p-4 flex flex-col items-center justify-center h-full bg-yellow-50">
       <h1 className="text-3xl font-bold mb-4">Resume</h1>
       <div className="mt-2" style={{ height: '80vh', width: '100%' }}>
         <iframe

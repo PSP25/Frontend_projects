@@ -7,7 +7,7 @@ import flappyBird from '../assets/flappybird.webp'
 
 const Projects = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 bg-yellow-50">
       <h1 className="text-3xl font-bold text-center underline">Projects</h1>
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* <Card
@@ -35,21 +35,21 @@ const Projects = () => {
         <ProjectCard
           title="PYfy Music Player"
           description="Tech: {JavaScript, CSS, HTML}"
-          link="https://github.com/your-project-repo"
+          link="https://spotifypersonal.freewebhostmost.com/"
           linkText="GitHub Repo"
           imageUrl={pyfy} // Replace with actual image path
         />
         <ProjectCard
           title="CityWeatherVue"
           description="Tech: {JS, API Integration}"
-          link="https://github.com/your-project-repo"
+          link="https://psp25.github.io/Weather-App/"
           linkText="GitHub Repo"
           imageUrl={weatherApp} // Replace with actual image path
         />
         <ProjectCard
           title="Flappy Bird Game"
           description="Tech: {JS-DOM Manipulation}"
-          link="https://github.com/PSP25/project"
+          link="https://psp25.github.io/project/"
           linkText="GitHub Repo"
           imageUrl={flappyBird} // Replace with actual image path
         />

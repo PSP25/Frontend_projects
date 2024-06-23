@@ -6,7 +6,7 @@ import githubIcon from '../assets/github_icon.svg';
 import leetcodeIcon from '../assets/leetcode_icon.svg';
 const Profile = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 bg-yellow-50">
       <h1 className="text-3xl font-bold text-center mb-4">Coding Profiles:</h1>
       <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card
@@ -19,7 +19,7 @@ const Profile = () => {
         <Card
           title="LinkedIn"
           description="250+ Connections"
-          link="www.linkedin.com/in/priyanshusp"
+          link="https://www.linkedin.com/in/priyanshusp/"
           linkText="View Profile"
           imageUrl={linkedinIcon} // Replace with actual image path
         />
