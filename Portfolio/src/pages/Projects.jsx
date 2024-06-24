@@ -36,21 +36,21 @@ const Projects = () => {
           title="PYfy Music Player"
           description="Tech: {JavaScript, CSS, HTML}"
           link="https://spotifypersonal.freewebhostmost.com/"
-          linkText="GitHub Repo"
+          linkText="Project Link"
           imageUrl={pyfy} // Replace with actual image path
         />
         <ProjectCard
           title="CityWeatherVue"
           description="Tech: {JS, API Integration}"
           link="https://psp25.github.io/Weather-App/"
-          linkText="GitHub Repo"
+          linkText="Project Link"
           imageUrl={weatherApp} // Replace with actual image path
         />
         <ProjectCard
           title="Flappy Bird Game"
           description="Tech: {JS-DOM Manipulation}"
           link="https://psp25.github.io/project/"
-          linkText="GitHub Repo"
+          linkText="Project Link"
           imageUrl={flappyBird} // Replace with actual image path
         />
       </div>
