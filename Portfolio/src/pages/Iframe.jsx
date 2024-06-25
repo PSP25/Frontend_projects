@@ -5,7 +5,7 @@ function Iframe() {
     <iframe
     title="Resume"
     className="w-full h-full"
-    src="https://drive.google.com/file/d/1JGcJGIG0hTSCo9-cBm6rs94P_zhOV_PH/preview"
+    src="https://drive.google.com/file/d/1Clnp9CFOCcbrEHH0biUCH1TgjQVkvphw/preview"
     frameBorder="0"
     allowFullScreen
   ></iframe>
