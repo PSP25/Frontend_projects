@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <header className="p-4 bg-gray-800 text-white text-center">
       <div className="flex items-center justify-between">
-        <a className="text-2xl font-bold" href="/">Priyanshu's Tech Portfolio</a>
+        <a className="text-2xl font-bold" href="/">Priyanshu's TechCanvas</a>
         <nav className="bg-gray-800 p-4 text-white">
           <ul className="flex space-x-4">
             <li>
