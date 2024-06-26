@@ -29,7 +29,7 @@ const About = () => {
               🤝 <strong>Soft Skills and Leadership:</strong> Priyanshu's background as an Event Management Coordinator has finely tuned their leadership and collaborative skills. They excel in both individual and team environments, leveraging their experience to enhance event experiences through innovative solutions that streamline planning processes and elevate attendee engagement.
             </p>
             <p className="mt-4 text-lg leading-relaxed">
-              📚 <strong>Academics & More:</strong> Priyanshu maintains an impressive CGPA of 8.83, complemented by coursework in Data Structures and Algorithm (DSA), Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems (OS), and Computer Networks (CN) from prestigious platforms.
+              📚 <strong>Academics & More:</strong> Priyanshu maintains an impressive CGPA of <strong>8.83/10.00</strong>, complemented by coursework in Data Structures and Algorithm (DSA), Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems (OS), and Computer Networks (CN) from prestigious platforms.
             </p>
             <p className="mt-4 text-lg leading-relaxed">
               💼 <strong>Why Connect with Priyanshu?</strong> Priyanshu is constantly on the lookout to collaborate on projects or dive into roles that challenge their programming and analytical skills. Passionate about leveraging technology to innovate and enhance user experiences, Priyanshu is eager to connect with fellow tech enthusiasts and professionals to explore new opportunities and bring exceptional ideas to life.
