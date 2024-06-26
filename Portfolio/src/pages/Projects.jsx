@@ -3,8 +3,9 @@ import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import pyfy from '../assets/music_play.jpg'
 import weatherApp from '../assets/weatherapp.jpg';
-import flappyBird from '../assets/flappybird.webp'
-
+import flappyBird from '../assets/flappybird.webp';
+import todo from '../assets/todo.jpg'
+import simon from '../assets/simongame.webp'
 const Projects = () => {
   return (
     <div className="p-4 bg-yellow-50">
@@ -52,6 +53,20 @@ const Projects = () => {
           link="https://psp25.github.io/project/"
           linkText="Project Link"
           imageUrl={flappyBird} // Replace with actual image path
+        />
+        <ProjectCard
+          title="Todo_Application"
+          description="Tech: {JS, Locale Storage}"
+          link="https://psp25.github.io/To_Do-List-App/"
+          linkText="Project Link"
+          imageUrl={todo} // Replace with actual image path
+        />
+        <ProjectCard
+          title="Simon Game"
+          description="Tech: {JS, CSS, HTML}"
+          link="https://psp25.github.io/simon-game/"
+          linkText="Project Link"
+          imageUrl={simon} // Replace with actual image path
         />
       </div>
     </div>
