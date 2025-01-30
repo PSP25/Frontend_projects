@@ -12,7 +12,7 @@ const Education = () => {
       <p className="mt-2">B.Tech in Computer Science & Engineering</p>
       <p className="mt-1">College: NIT Rourkela</p>
       <p className="mt-1">Passing Year: 2026</p>
-      <p className="mt-1">CGPA: <strong>8.83/10.00</strong></p>
+      <p className="mt-1">CGPA: <strong>8.93/10.00</strong></p>
       <a href="https://drive.google.com/file/d/11jipAiFPdtqFqCAp--JJIhiYtd4w8nMT/view" className="text-blue-700"
       >Grade Card</a>
     </div>
