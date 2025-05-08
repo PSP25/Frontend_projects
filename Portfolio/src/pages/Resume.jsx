@@ -6,7 +6,7 @@
 //     <div className="p-4">
 //       <h1 className="text-3xl font-bold">Resume</h1>
 //       <p className="mt-2">
-//         <a href="https://drive.google.com/file/d/1JGcJGIG0hTSCo9-cBm6rs94P_zhOV_PH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+//         <a href="https://drive.google.com/file/d/1uIVxSnkGEGJxfmODoZ9f8AtdkjXSLc7a/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
 //           View My Resume
 //         </a>
 //       </p>
